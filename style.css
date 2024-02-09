@@ -1,0 +1,44 @@
+main {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60%;
+}
+
+.input-line {
+  position: relative;
+  display: flex;
+  height: 40px;
+}
+
+input {
+  padding: 8px;
+  flex-grow: 1;
+}
+
+button {
+  margin-left: 16px;
+  padding: 8px;
+  background-color: #4e6ef2;
+  color: white;
+  border: 0.8px solid black;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.results {
+  position: absolute;
+  top: 40px;
+  border-color: transparent #4e6ef2 #4e6ef2 #4e6ef2;
+  border-style: solid;
+  border-radius: 0 0 8px 8px;
+  width: calc(100% - 116px - 4px);
+  text-align: left;
+}
+
+.results div {
+  padding: 6px;
+  border-bottom: 1px solid #808080;
+}
