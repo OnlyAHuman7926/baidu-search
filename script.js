@@ -5,6 +5,7 @@ function search(query) {
 }
 
 function process(data) {
+  if (data.q != input.value) return;
   result.innerHTML = "";
   for (let obj of data.s) {
     let e = document.createElement("div");
