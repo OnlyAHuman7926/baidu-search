@@ -16,6 +16,12 @@ main {
 input {
   padding: 8px;
   flex-grow: 1;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid #4e6ef2;
+  border-radius: 2px;
 }
 
 button {
